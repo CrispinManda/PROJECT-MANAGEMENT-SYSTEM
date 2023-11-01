@@ -8,15 +8,17 @@
 </head>
 <body>
   <div class="wrapper">
-    <form action="#">
+    <form id="login-form" action="#">
       <h2>Login</h2>
         <div class="input-field">
-        <input type="text" required>
+        <input  id="login-mail" type="text" required>
         <label>Enter your email</label>
+        <span id="mail-error" class="error" style="color: red;"></span>
       </div>
       <div class="input-field">
-        <input type="password" required>
+        <input id="login-pwd" type="password" required>
         <label>Enter your password</label>
+        <span id="pwd-error" class="error" style="color: red;"></span>
       </div>
       <div class="forget">
         <label for="remember">
@@ -32,5 +34,6 @@
       </div>
     </form>
   </div>
+  <script src=""></script>
 </body>
 </html>
