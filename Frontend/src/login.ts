@@ -88,7 +88,7 @@ login_form.addEventListener('submit', (e)=>{
                     location.href = 'employee.html'
                 }else if(data['info'].role === 'admin'){
                     localStorage.setItem('user_email', data['info'].email!)
-                    location.href = 'admin.html'//admin dashboard name.html
+                    location.href = '../Admin_dash/index.html'//admin dashboard name.html
                 }
             })
         }
