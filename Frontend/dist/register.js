@@ -32,7 +32,7 @@ register_form.addEventListener('submit', (event) => {
                 });
             });
             function gotoLogin() {
-                location.href = 'login.html';
+                location.href = './';
             }
         }
         // else{

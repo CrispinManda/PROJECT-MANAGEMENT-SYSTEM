@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" style="width: 600px;">
+
+            <div class="offcanvas-body" data-simplebar >
+              <div class="offcanvas-header px-2 pt-0">
+                <h3 class="offcanvas-title" id="offcanvasExampleLabel">Create Project</h3>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+              </div>
+          
+                    <!-- card body -->
+                    <div class="container">
+                      <!-- form -->
+                      <div class="row" >
+                        <!-- form group -->
+                        <div class="mb-3 col-12">
+                          <label class="form-label">Name <span class="text-danger">*</span></label>
+                          <input type="text" class="form-control" placeholder="Enter project title" required>
+                        </div>
+                        <!-- form group -->
+                        <div class="mb-3 col-12">
+                          <label class="form-label">User <span class="text-danger">*</span></label>
+                          <input type="text" class="form-control" placeholder="Enter project title" required>
+                        </div>
+                        <!-- form group -->
+                        <div class="mb-3 col-12">
+                          <label class="form-label">Description</label>
+                          <div id="editor" >
+          
+                            <p> Type something here
+                                </p>
+                                <br >
+                                <br >
+                                <br >
+          
+          
+                          </div>
+                        </div>
+                        <!-- form group -->
+                        <div class="mb-3 col-md-6 col-12">
+                          <label class="form-label">Start Date <span class="text-danger">*</span></label>
+                          <div class="input-group me-3 flatpickr rounded">
+                            <input class="form-control " type="text" placeholder="Select Date"
+                              aria-describedby="basic-addon2">
+          
+                              <span class="input-group-text text-muted" id="basic-addon2"><i
+                                   data-feather="calendar" class="icon-xs" ></i></span>
+          
+                          </div>
+                        </div>
+                        <!-- form group -->
+                        <div class="mb-3 col-md-6 col-12">
+                          <label class="form-label">End Date <span class="text-danger">*</span></label>
+                          <div class="input-group me-3 flatpickr rounded">
+                            <input class="form-control " type="text" placeholder="Select Date"
+                              aria-describedby="basic-addon3">
+          
+                              <span class="input-group-text text-muted" id="basic-addon3"><i
+                                   data-feather="calendar" class="icon-xs" ></i></span>
+          
+                          </div>
+                        </div>
+                         <!-- form group -->
+                         <div class="mb-4 col-md-6 col-12">
+                          <label class="form-label">Priority
+                          </label>
+                          <select class="form-select">
+                            <option value="">Set Priority</option>
+                            <option value="High">High</option>
+                            <option value="Medium">Medium</option>
+                            <option value="Low">Low</option>
+                          </select>
+                        </div>
+                        <!-- form group -->
+                        <div class="mb-4 col-md-6 col-12">
+                          <label class="form-label">Status</label>
+                          <select class="form-select">
+                            <option value="">In Progress</option>
+                            <option value="Based on Project Amount">Based on Project Amount</option>
+                            <option value="Based on Project Hours">Based on Project Hours</option>
+                          </select>
+                        </div>
+          
+          
+                        <div class="col-md-8"></div>
+                        <!-- button -->
+                        <div class="col-12">
+                          <button class="btn btn-primary" type="button">Submit</button>
+                          <button type="button" class="btn btn-outline-primary ms-2" data-bs-dismiss="offcanvas" aria-label="Close">Close</button>
+                        </div>
+                      </div>
+    </form>
+
+</body>
+</html>
